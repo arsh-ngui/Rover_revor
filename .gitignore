@@ -1,0 +1,40 @@
+# ============================================================
+# MINEGUARD .gitignore
+# ============================================================
+
+# --- Python virtual environment (regenerate with requirements.txt) ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Model weights & training runs ---
+# Ignore all .pt files EXCEPT the one the backend actually serves.
+# (yolo11n.pt / yolov8n.pt base checkpoints, and runs/*/weights/*.pt
+# training checkpoints, all get re-created or re-downloaded — no
+# need to commit them.)
+*.pt
+!backend/models/yolov8_thermal_best.pt
+runs/
+
+# --- Dataset (thousands of images — re-export from Roboflow instead) ---
+roboflow_thermal_people/images/
+roboflow_thermal_people/labels/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# --- Secrets / local env ---
+.env
