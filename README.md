@@ -123,8 +123,8 @@ needed.
 
 ## 3. Wiring summary (Nano ↔ ESP32 link)
 
-- Nano **A3** (TX, SoftwareSerial) → voltage divider (5V → ~3.3V) → ESP32 **RX** pin
-- Nano **A2** (RX, SoftwareSerial) ← ESP32 **TX** pin (no divider needed this direction)
+- Nano **A3** (TX, SoftwareSerial) → voltage divider (5V → ~3.3V) → ESP32 **RX** (Pin 4)
+- Nano **A2** (RX, SoftwareSerial) ← ESP32 **TX** pin (no divider needed this direction) (Pin 2)
 - Nano **GND** ↔ ESP32 **GND** (common ground — required)
 
 Both sketches communicate at **9600 baud**.
