@@ -133,7 +133,7 @@ Both sketches communicate at **9600 baud**.
 
 ## 4. Repo contents
 
-- `nano_sensor_uart.ino` — reads MQ-4, MQ-7, DHT22, BMP180 and sends
+- `nanoJson2ino` — reads MQ-4, MQ-7, DHT22, BMP180 and sends
   readings as a JSON line over UART
-- `esp32_receiver.ino` — receives and parses the JSON line from the Nano
+- `esp32RecPinChange.ino` — receives and parses the JSON line from the Nano
 - Fritzing circuit file(s) — schematic/breadboard design
