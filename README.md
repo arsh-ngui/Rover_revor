@@ -23,10 +23,10 @@ errors.
 
 | Library / part source | Link | Parts it adds |
 |---|---|---|
-| _e.g. "MQ Gas Sensors – Fritzing Part"_ | _link here_ | MQ-4, MQ-7 |
-| _e.g. "BMP180 Fritzing Part"_ | _link here_ | BMP180 breakout |
-| _e.g. "RioRand LM2596 Buck Converter"_ | _link here_ | Buck converter module |
-| _e.g. "DHT22 Fritzing Part"_ | _link here_ | DHT22 |
+| _e.g. "MQ Gas Sensors – Fritzing Part"_ | [ _link here_](https://github.com/KAST-Tech/fritzing-parts/tree/main) | MQ-4, MQ-7 |
+| _e.g. "BMP180 Fritzing Part"_ | [_link here_](https://github.com/adafruit/Fritzing-Library/blob/master/parts/Adafruit%20BMP180.fzpz) | BMP180 breakout |
+| _e.g. "RioRand LM2596 Buck Converter"_ | [_link here_](https://github.com/amchagas/my_fritzing_parts/blob/master/lm2596/lm2596.fzp) | Buck converter module |
+| _e.g. "DHT22 Fritzing Part"_ | [_link here_](https://github.com/adafruit/Fritzing-Library/blob/master/parts/DHT22%20Humidity%20and%20Temperature%20Sensor.fzpz) | DHT22 |
 
 ### 1.2 How to install a custom Fritzing library (general steps)
 
